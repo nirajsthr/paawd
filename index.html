@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Password Generator
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#passwd">password</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>
+                Before modifying the code, ensure you understand the requirements of the description. For example, does the password need to:
+<br>
+Include a specific number of uppercase letters?
+Contain at least one number?
+Have a certain length?
+Exclude certain characters?
+            </p>
+            <pre>Design: The design of a web page is created using a variety of tools, including graphic design software and wireframing tools.
+                Development: The design is then implemented using HTML, CSS, and JavaScript.
+                Testing: The web page is tested to ensure that it works correctly and provides a good user experience.
+                Deployment: The web page is deployed to a web server, where it can be accessed by users.
+                Best Practices for Creating Web Pages
+                
+                Keep it Simple: Keep the design and content of the web page simple and easy to use.
+                Make it Responsive: Ensure that the web page is responsive and works well on different devices and screen sizes.
+                Use Clear Navigation: Use clear and consistent navigation to help users find what they are looking for.
+                Optimize for Search Engines: Optimize the web page for search engines to improve its visibility and ranking.
+                Tools and Software for Creating Web Pages
+                
+                Text Editors: Text editors, such as Notepad or TextEdit, can be used to write HTML, CSS, and JavaScript code.
+                Integrated Development Environments (IDEs): IDEs, such as Visual Studio Code or Sublime Text, provide a comprehensive development environment for creating web pages.
+                Graphic Design Software: Graphic design software, such as Adobe Photoshop or Sketch, can be used to create visual designs for web pages.
+                Web Development Frameworks: Web development frameworks, such as React or Angular, can be used to build complex web applications.</pre>
+        </section>
+        <section id="passwd">
+            <h2>password genretor Use</h2>
+            <div class="container">
+                <h1>Password Generator</h1><br>
+                <input type="number" id="length" placeholder="Password Length" min="1" max="20">
+                <br>
+                <button id="generate">Generate Password</button>
+                <h2 id="password"></h2>
+            </div>
+            <script src="main.js"></script>
+            <p>We create amazing web experiences.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <pre>Feel free to reach out!</pre>
+            <main>
+                <section>
+                    <h2>Get in Touch</h2>
+                    <p>If you have any questions, feel free to reach out using the form below:</p>
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+            </main>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;  My  Webpage</p>
+    </footer>
+</body>
+</html>
